@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 4 Form</title>
+</head>
+<body>
+<form action="form_ok.jsp" method="post">
+    <label>학번: </label>
+    <input type="text" name="id">
+    <br>
+
+    <label>이름: </label>
+    <input type="text" name="name">
+    <br>
+
+    <label>성별: </label>
+    <input type="radio" name="gender" value="남">
+    <label>남</label>
+    <input type="radio" name="gender" value="여">
+    <label>여</label>
+    <br>
+
+    <label>생일: </label>
+    <input type="date" name="birthday">
+    <br>
+
+    <label>전공: </label>
+    <select name="major">
+        <option value="컴퓨터공학">컴퓨터공학</option>
+        <option value="전자공학">전자공학</option>
+    </select>
+    <br>
+
+    <label>소지 중인 전자기기: </label>
+    <input type="checkbox" name="mobile" value="스마트폰">
+    <label>스마트폰</label>
+    <input type="checkbox" name="laptop" value="노트북">
+    <label>노트북</label>
+    <input type="checkbox" name="tablet" value="태블릿">
+    <label>태블릿</label>
+    <br>
+
+    <label>군필 여부: </label>
+    <input type="radio" name="military" value="군필">
+    <label>군필</label>
+    <input type="radio" name="military" value="미필">
+    <label>미필</label>
+    <br>
+
+    <label>결혼 여부: </label>
+    <input type="radio" name="marriage" value="기혼">
+    <label>기혼</label>
+    <input type="radio" name="marriage" value="미혼">
+    <label>미혼</label>
+    <br>
+
+    <label>자동차 소지 여부: </label>
+    <input type="radio" name="hasCar" value="O">
+    <label>O</label>
+    <input type="radio" name="hasCar" value="X">
+    <label>X</label>
+    <br>
+
+    <label>간단 자기 소개: </label>
+    <br>
+    <textarea name="intro" cols="30" rows="5"></textarea>
+    <br>
+
+    <input type="submit" value="등록">
+</form>
+</body>
+</html>
